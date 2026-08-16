@@ -10,7 +10,7 @@ DB_PASS="moin@123"
 echo "***************apt update + install packages*************"
 
 sudo apt update -y
-sudo apt install -y apache2 postgresql postgresql-contrib php libapache2-mod-php php-psql git
+sudo apt install -y apache2 postgresql postgresql-contrib php libapache2-mod-php php-pgsql git
 
 
 echo "***********Start + enable services of apache and psql**************"
@@ -32,7 +32,7 @@ echo "*****************Initialize D.B************************"
 
 
 cd /tmp
-sudo -u postgres psql -f /tmp/portfolio_repo/iniecho " ************** ALL DONE!! **************"echo " ************** ALL DONE!! **************"t.sql
+sudo -u postgres psql -f /tmp/portfolio_repo/init.sql
 
 
 echo "****************Setup apache env vars *******************"
