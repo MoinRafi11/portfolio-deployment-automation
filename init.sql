@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS projects(
         status VARCHAR(50) NOT NULL
         );
 
-C:\Users\hp>
+
         TRUNCATE TABLE projects;
 
 
