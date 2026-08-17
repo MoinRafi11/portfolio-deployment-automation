@@ -13,7 +13,8 @@ CREATE TABLE IF NOT EXISTS projects(
         id SERIAL PRIMARY KEY,
         project_name VARCHAR(50) NOT NULL,
         technology VARCHAR(50) NOT NULL,
-        status VARCHAR(50) NOT NULclient_loop: send disconnect: Connection reset      );
+        status VARCHAR(50) NOT NULL
+        );
 
 C:\Users\hp>
         TRUNCATE TABLE projects;
